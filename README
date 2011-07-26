@@ -1,10 +1,10 @@
 ** INFO **
-	This are some scripts to make profiling of the queries that and Blog in Elgg do.
+	Here you find some scripts to make profiling to queries that a Blog in Elgg do.
 	I did it becuase I was thinking some aproachs to develop a multilingual Elgg 
 	changing the model of it. But finally I use other way of development, following 
 	some recomendations from Cash Costello.
 	I put them here, because could be usefull to somebody that want to make profiling 
-	of the queries.
+	of Elgg queries.
 
 ** DIFFERENT TESTS **
 	blog.php:
