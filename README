@@ -1,0 +1,42 @@
+** DIFFERENT TESTS **
+	blog.php:
+		Is a test that make the same queries as elgg to create a blog post.
+
+	blogADDCOL.php:
+		Test that generates 1000 queries creating a blog post using the strategy of adding a column in objects_entity for every language.
+
+	blogADDROW1b1l.php:
+		Test that generates 1000 blogs with 1000 languages, 1 blog 1 language.
+		Using two tables for that, elgg_objects_entity modified and elgg_translations.
+
+	blogADDROW1b1000l.php:
+		Test that generates 1 blog with 1000 different languages.
+		Using the same tables as blogADDROW1b1l.php.
+		
+
+** VIEWING RESULTS **
+
+	In data folder there are graphs of every test 
+	and their own data files.
+
+** EXECUTION **
+
+	You need to have an elgg database, one for every test will be the best solution.
+	Put the name of the database in every script.
+	
+	Execute a one script at a time as:
+		php5 blog.php
+	
+	The data will be saved in dataFull file.
+
+	Create the graph with:
+	
+		gnuplot script
+		
+		In order to get a proper graph you should change the title
+		and yrange parameters.
+
+** TODO **
+	- Create a library to avoid repeat the same code in every script.
+	
+

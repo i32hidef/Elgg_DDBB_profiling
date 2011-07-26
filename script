@@ -1,0 +1,7 @@
+set terminal png
+set xlabel "Number of queries"; 
+set ylabel "Time in seconds";
+set output 'blogPoints.png'
+set xrange[0:*]
+set yrange[0:5]	
+plot './dataFull' title '1 blog and 1000 language' with points
